@@ -1,12 +1,10 @@
 import React from "react";
 
 import Skill from "./Skill";
-import figmaIcon from "assets/icons/figma";
 import reactIcon from "assets/icons/react-icon";
 import nodeIcon from "assets/icons/node";
 import sassIcon from "assets/icons/sass";
 import pythonIcon from "assets/icons/python";
-import uxIcon from "assets/icons/ux";
 import "./style.scss";
 
 function Skills() {

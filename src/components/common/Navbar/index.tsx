@@ -1,7 +1,6 @@
 import React, { useRef, useState } from "react";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 
-import Logo from "assets/brands/logo";
 import MenuIcon from "@material-ui/icons/Menu";
 import Button from "components/common/Button";
 import CloseIcon from "@material-ui/icons/Close";
