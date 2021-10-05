@@ -25,7 +25,7 @@ const CtaCard: React.FC<CtaCardPropType> = ({ title, detail, btVariant, label })
       <div className="cta-card__container">
         <h1>{title}</h1>
         {detail && <p>{detail}</p>}
-        <Button label={label} variant={btVariant} onClick={handleOpen}  />
+        <Button label={label} variant={btVariant} onClick={handleOpen} disabled={true} />
 
         <div>{value && <ContactForm onclose={handleClose} />}</div>
       </div>
