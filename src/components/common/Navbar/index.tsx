@@ -69,7 +69,7 @@ const Navbar = () => {
                   <LinkedInIcon className="social-icon" style={{ height: "30px", width: "30px" }} />
                 </a>
               </li>
-              <Button onClick={handleOpen} label="Contact" variant="outline" />
+              <Button onClick={handleOpen} label="Contact" variant="outline" disabled={true}/>
             </ul>
           </div>
         </div>
